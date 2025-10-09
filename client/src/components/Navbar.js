@@ -55,6 +55,7 @@ const Navbar = () => {
             <li><NavLink to="/notes" className="navbar-link">Notes</NavLink></li>
             <li><NavLink to="/pyqs" className="navbar-link">PYQs</NavLink></li>
             <li><NavLink to="/analytics" className="navbar-link">Analytics</NavLink></li>
+            <li><NavLink to="/tasks" className="navbar-link">Tasks</NavLink></li>
             <li><NavLink to="/mindmap" className="navbar-link">Mind Map</NavLink></li>
             <li><NavLink to="/feedback" className="navbar-link">Feedback</NavLink></li>
             <li><NavLink to="/faq" className="navbar-link">FAQs</NavLink></li>
@@ -95,6 +96,7 @@ const Navbar = () => {
           <li><NavLink to="/notes" className="navbar-link-mobile" onClick={closeMobileMenu}>Notes</NavLink></li>
           <li><NavLink to="/pyqs" className="navbar-link-mobile" onClick={closeMobileMenu}>PYQs</NavLink></li>
           <li><NavLink to="/analytics" className="navbar-link-mobile" onClick={closeMobileMenu}>Analytics</NavLink></li>
+          <li><NavLink to="/tasks" className="navbar-link-mobile" onClick={closeMobileMenu}>Tasks</NavLink></li>
           <li><NavLink to="/mindmap" className="navbar-link-mobile" onClick={closeMobileMenu}>Mind Map</NavLink></li>
           <li><NavLink to="/feedback" className="navbar-link-mobile" onClick={closeMobileMenu}>Feedback</NavLink></li>
           <li><NavLink to="/faq" className="navbar-link-mobile" onClick={closeMobileMenu}>FAQs</NavLink></li>
